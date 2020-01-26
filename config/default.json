@@ -1,5 +1,10 @@
 {
   "AWS_REGION": "us-east-1",
-  "COGNITO_POOL_ID": "",
-  "COGNITO_CLIENT_ID": ""
+  "COGNITO_POOL_ID": "us-east-1_XYZ",
+  "COGNITO_CLIENT_ID": "ABC",
+  "SERVER_PORT": 8443,
+  "CERTIFICATE_FILE": "./cert.pem",
+  "CERTIFICATE_KEY_FILE": "./key.pem",
+  "LOG_LEVEL": "INFO",
+  "LOG_FILE": "./logs/auth.log"
 }

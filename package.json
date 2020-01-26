@@ -1,0 +1,33 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-goldman/AuthServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-goldman/AuthServer/issues"
+  },
+  "homepage": "https://github.com/r-goldman/AuthServer#readme",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.2.0",
+    "aws-sdk": "^2.573.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.0.0",
+    "node-fetch": "^2.6.0",
+    "safe-json-stringify": "^1.2.0"
+  }
+}
